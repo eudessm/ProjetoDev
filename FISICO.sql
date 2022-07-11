@@ -43,7 +43,7 @@ FOREIGN KEY(id_Periodo) REFERENCES Periodo (id_Periodo)
 
 CREATE TABLE Grupo (
 id_Grupo serial PRIMARY KEY,
-Nome_Grupo varchar(20),
+Nome_Grupo varchar(25),
 Aviso text,
 Fila_Espera varchar(30),
 Status_Grupo varchar(10)
